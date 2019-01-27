@@ -1,0 +1,89 @@
+@font-face {
+    font-family: Antipasto;
+    src: url('../fonts/Antipasto.ttf');
+}
+ 
+@font-face {
+    font-family: Yorkville;
+    src: url('../fonts/Yorkville.ttf');                                                                                                                                                     }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yorkville', Sans-Serif;
+  font-weight: 500;
+  //text-shadow: 1px 1px 4px $primary;
+}
+
+.nounderline {
+    text-decoration: none !important;
+}
+
+.middle img {
+    height: auto;
+}
+
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 10%);
+  }
+}
+
+.btn-primary {
+  background-color: $primary !important;
+  border-color: $primary !important;
+  color: $white !important;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($primary, 10%) !important;
+    border-color: darken($primary, 10%) !important;
+  }
+}
+
+.btn-secondary {
+  background-color: $secondary !important;
+  border-color: $secondary !important;
+  color: $white !important;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: darken($secondary, 10%) !important;
+    border-color: darken($secondary, 10%) !important;
+  }
+}
+
+.btn-dark {
+  color: $white !important;
+}
+
+.btn {
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+  color: $primary !important;
+}
+
+.text-secondary {
+  color: $secondary !important;
+}
+
+.row {
+  margin-bottom: 25px;
+}
+
+body {
+  font-size: 1.0rem;
+}
+
+.lead {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
